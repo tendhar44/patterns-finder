@@ -1,0 +1,13 @@
+$primary-bg-color: #312020;
+$main-color: rgba(255, 255, 255, 0.87);
+
+body {
+  margin: 0;
+  padding: 0 10px 0 10px;
+  display: flex;
+  //place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: $primary-bg-color;
+  color: $main-color;
+}
