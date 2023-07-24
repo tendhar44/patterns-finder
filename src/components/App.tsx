@@ -1,4 +1,4 @@
-//import { useState } from 'react'
+import Services from './Services/Services'
 import Header from './Header/Header'
 import './scss/App.scss'
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Services /> use for microservices template*/}
+      <Services />
     </>
   )
 }
